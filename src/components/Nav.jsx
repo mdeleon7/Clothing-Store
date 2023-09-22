@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import LanguageIcon from '@material-ui/icons/GitHub';
-import SearchIcon from '@material-ui/icons/Search';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import SearchIcon from '@mui/icons-material/Search';
 import { NavLink, Link } from 'react-router-dom';
 import CartIcon from './CartIcon';
 import '../styles/nav.css';
@@ -78,7 +78,7 @@ const Nav = (props) => {
       <div id="nav">
         <div id="nav-left">
           <div id="nav-location">
-            <LanguageIcon className="nav-lang" style={{ fontSize: '0.8rem' }} />
+            <GitHubIcon className="nav-lang" style={{ fontSize: '0.8rem' }} />
             <a
               href="https://github.com/mdeleon7"
               target="_blank"

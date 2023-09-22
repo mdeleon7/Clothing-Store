@@ -1,6 +1,6 @@
 import React from 'react';
 import Shop from './Shop';
-import hero from '../assets/img/hero2.jpg';
+import hero from '/img/hero2.jpg';
 import '../styles/women.css';
 
 const Women = ({ cards, categories, setCategories }) => {

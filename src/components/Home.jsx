@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../styles/home.css';
-import heroVideo from '../assets/videos/z.mp4';
+import heroVideo from '/videos/z.mp4';
 
 const Home = () => {
   return (

@@ -4,7 +4,7 @@ import '../styles/checkout.css';
 import CloseSharpIcon from '@material-ui/icons/CloseSharp';
 import OrderSuccess from './OrderSuccess';
 import ScrollToTop from './functions/ScrollToTop';
-import hero from '../assets/img/hero.jpg';
+import hero from '/img/hero.jpg';
 
 const Checkout = ({ cart, setCart }) => {
   const [final, setFinal] = useState(0);

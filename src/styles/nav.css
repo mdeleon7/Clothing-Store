@@ -135,10 +135,11 @@
     justify-content: flex-end;
     align-items: center;
     text-align: right;
-    padding: 1em;
+    padding: 2em 1em 1em 1em;
     margin: 1em;
     cursor: pointer;
     position: relative;
+    transform: scale(1.2);
   }
   
   .badge {

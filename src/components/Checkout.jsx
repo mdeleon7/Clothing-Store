@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/checkout.css';
-import CloseSharpIcon from '@material-ui/icons/CloseSharp';
+import CloseSharpIcon from '@mui/icons-material/CloseSharp';
 import OrderSuccess from './OrderSuccess';
 import ScrollToTop from './functions/ScrollToTop';
 import hero from '/img/hero.jpg';

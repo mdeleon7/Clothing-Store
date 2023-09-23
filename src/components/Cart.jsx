@@ -1,5 +1,5 @@
 import React from 'react';
-import CloseSharpIcon from '@material-ui/icons/CloseSharp';
+import CloseSharpIcon from '@mui/icons-material/CloseSharp';
 import '../styles/cart.css';
 import { Link } from 'react-router-dom';
 

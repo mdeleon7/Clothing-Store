@@ -1,6 +1,6 @@
 import '../styles/order-success.css';
 import React from 'react';
-import CheckCircleIcon from '@material-ui/icons/Beenhere';
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 const OrderSuccess = () => {
   return (

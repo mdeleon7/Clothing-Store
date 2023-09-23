@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/item.css';
-import BackIcon from '@material-ui/icons/TrendingFlat';
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import ScrollToTop from './functions/ScrollToTop';
 import { useParams } from 'react-router-dom';
 
@@ -75,7 +75,7 @@ const Item = (props) => {
           <p id="item-brand">{itemClone.brand}</p>
           <p id="item-page-title">
             {itemClone.title}
-            <BackIcon id="back-icon" onClick={goBack} />
+            <ArrowRightAltIcon id="back-icon" onClick={goBack} />
           </p>
           <p id="item-page-price">
             ${Number(itemClone.price).toLocaleString('en-US')}
